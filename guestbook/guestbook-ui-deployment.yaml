@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: https://index.docker.io/v1/jvermeir/date-time:latest
+      - image: https://index.docker.io/v1/jvermeir/date-time
         name: guestbook-ui
         ports:
         - containerPort: 80
